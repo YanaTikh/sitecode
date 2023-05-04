@@ -1,0 +1,28 @@
+body {
+  background-color: #f5feff;
+}
+
+h1,
+h7 {
+  color: #4d12ee;
+}
+.top h4 {
+  color: #005792;
+}
+h5 {
+  color: #ff5200;
+}
+h6,
+.tomorrow h4 {
+  color: #00bbf0;
+}
+p {
+  color: #005792;
+  margin-top: 20px;
+}
+.center {
+  margin: 150px auto 100px 0;
+}
+.top {
+  flex-wrap: nowrap;
+}
