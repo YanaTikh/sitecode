@@ -26,3 +26,8 @@ p {
 .top {
   flex-wrap: nowrap;
 }
+.footer {
+  display: flex;
+
+  margin-top: 200px;
+}
