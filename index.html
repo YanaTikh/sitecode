@@ -46,12 +46,18 @@
         <div class="col"><h4>Madrid</h4></div>
       </div>
       <div class="row center">
-        <div class="col">
+        <div class="col weather">
           <h1>
-            <span id="city">Kyiv</span> <span id="grad">10</span>°
-            <a href="#" id="cels">C</a> / <a href="#" id="fahr">F</a> 🌦️
+            <span id="city">Kyiv</span> <span id="grad"></span>°
+            <a href="#" id="cels" class="celsiusLink active">C</a> /
+            <a href="#" id="fahr" class="fahrenheitLink">F</a>
+            <img id="icon" src="" />
           </h1>
-          <h7>Humidity: 80%</h7>
+          <h7>Humidity: <span id="humidity"></span>%</h7>
+          <div>
+            <h7>Wind speed: <span id="wind"></span> km/h</h7>
+          </div>
+          <div><h7 id="description" class="description"></h7></div>
           <h6 id="date">Today 09.04.2023</h6>
         </div>
         <div class="col">
