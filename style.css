@@ -31,3 +31,14 @@ p {
 
   margin-top: 200px;
 }
+.weather .active {
+  color: #4d12ee;
+  cursor: default;
+  text-decoration: none;
+}
+.weather .active:hover {
+  text-decoration: none;
+}
+.description:first-letter {
+  text-transform: uppercase;
+}
