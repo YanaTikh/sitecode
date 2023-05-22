@@ -1,5 +1,5 @@
 body {
-  background-color: #f5feff;
+  background-color: #ecf1f8;
 }
 
 h1,
@@ -40,5 +40,19 @@ p {
   text-decoration: none;
 }
 .description:first-letter {
+  text-transform: uppercase;
+}
+.forecast {
+  margin-top: 80px;
+  color: #4d12ee;
+  font-size: 20px;
+  line-height: 2.5;
+  text-align: center;
+}
+.celsiusLink,
+.fahrenheitLink {
+  font-size: 35px;
+}
+.city {
   text-transform: uppercase;
 }
