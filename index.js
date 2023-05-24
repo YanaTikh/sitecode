@@ -143,25 +143,3 @@ let button = document.querySelector("#currentLocation");
 button.addEventListener("click", getCurrentPosition);
 
 let curCity = getCurrentPosition();
-
-function displayFahrenheitTemp(event) {
-  event.preventDefault();
-  celsiusLink.classList.remove("active");
-  fahrenheitLink.classList.add("active");
-  let tempElement = document.querySelector("#grad");
-  let fahrenheitTemp = (celsiusTemp * 9) / 5 + 32;
-  tempElement.innerHTML = Math.round(fahrenheitTemp);
-}
-
-function displayCelsiusTemp(event) {
-  event.preventDefault();
-  celsiusLink.classList.add("active");
-  fahrenheitLink.classList.remove("active");
-  let tempElement = document.querySelector("#grad");
-  tempElement.innerHTML = Math.round(celsiusTemp);
-}
-
-let fahrenheitLink = document.querySelector(".fahrenheitLink");
-fahrenheitLink.addEventListener("click", displayFahrenheitTemp);
-let celsiusLink = document.querySelector(".celsiusLink");
-celsiusLink.addEventListener("click", displayCelsiusTemp);
